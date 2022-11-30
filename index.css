@@ -1,0 +1,48 @@
+@font-face 
+{
+    font-family: VinnytsiaCity;
+    src: url("fonts/Vinnytsia/VinnytsiaSansBold.ttf");
+}
+body
+{
+    background-color: #1a1e1f;
+}
+.vcenter
+{
+    position: absolute;
+    top: 38%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.name
+{
+    font-family: VinnytsiaCity;
+    font-size: 24;
+    color: whitesmoke;
+    text-align: center;
+}
+.desc
+{
+    font-family: VinnytsiaCity;
+    font-size: 16;
+    color: #b8b8b8;
+    text-align: center;
+}
+.upload
+{
+    background-color: #1a1e1f;
+    font-family: VinnytsiaCity;
+    font-size: 16;
+    width: 10%;
+    height: 5%;
+    color: white;
+    border-style:solid;
+    border-radius: 12px;
+    border-color: white;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    margin: auto;
+}
