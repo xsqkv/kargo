@@ -1,14 +1,9 @@
 const http = require("http");
 const fs = require("fs");
    
-http.createServer(function(request, response){
-       
-    let filePath = "index.html";
-    if(request.url !== "/")
-    {
-        // получаем путь после слеша
-        filePath = request.url.substring(1);
-    }
+http.createServer(function(request, response)
+{
+    let filePath = request.url === "/" ? "index.html" : request.url.substring(1);
     fs.readFile(filePath, function(error, data)
     {
         if(error)
@@ -21,6 +16,4 @@ http.createServer(function(request, response){
             response.end(data);
         }
     });
-}).listen(3000, function(){
-    console.log("Server started at 3000");
-});
+}).listen(3000, function(){ console.log("Server started at 3000"); });

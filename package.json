@@ -1,9 +1,6 @@
 {
   "name": "kargo",
   "version": "1.0.0",
-  "scripts": {
-    "start": "npx babel index.jsx --out-file index.js && node app.js"
-  },
   "devDependencies": {
     "@babel/cli": "^7.17.0",
     "@babel/core": "^7.17.0",

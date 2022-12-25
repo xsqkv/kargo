@@ -2,28 +2,29 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="img/kargo1024.png">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/kargo1024.ico">
+    <link rel="stylesheet" href="css/download.css">
     <title>Kargo - Система файлообмена</title>
 </head>
-<body onload="">
+<body>
     <div id="app"></div>
 
-    <object class="logo" type="image/svg+xml" data="img/kargo_white128.svg" width="128" height="128" ></object>
-    <a class="logoText" href="/">Kargo</a>
+    <object class="logo" type="image/svg+xml" data="img/kargo_white128.svg" width="128" height="128" href="download.html"></object>
+    <h1 class="logoText">Kargo</h1>
 
     <div class="vcenter">
         <h1 class="name">Kargo - это легковесная система файлообмена</h1>
         <p class="desc">Держите ваши файлы в удобном месте используя последние разработки в сфере облачных технологий.</p>
-        <button class="upload">Загрузить файл</button>
+        <button class="upload" onclick="alert('ABOBA')">Загрузить файл</button>
         <h1 class="or">Или</h1>
-        <div class="dropRect" ondrag="alert('File is loading!')">Перетащите сюда ваши файлы
+        <div class="dropRect">
+            <h2 class="dropLabel">Перетащите сюда ваши файлы</h2>
         </div>
     </div>
 
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script type="text/babel" src="js/index.jsx"></script>
+    <script type="text/babel" src="js/download.jsx"></script>
 </body>
 </html>

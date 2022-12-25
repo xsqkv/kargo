@@ -1,0 +1,85 @@
+@font-face 
+{
+    font-family: VinnytsiaCity;
+    src: url("../fonts/Vinnytsia/VinnytsiaSansBold.ttf");
+}
+body
+{
+    background-color: #1a1e1f;
+}
+.logoText
+{
+    font-family: VinnytsiaCity;
+    font-size: 400%;
+    color: whitesmoke;
+    position: relative;
+    top: -35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-decoration: none;
+}
+.vcenter
+{
+    position: absolute;
+    top: 38%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin: auto;
+}
+.name
+{
+    font-family: VinnytsiaCity;
+    font-size: 24;
+    color: whitesmoke;
+    text-align: center;
+}
+.desc
+{
+    font-family: VinnytsiaCity;
+    font-size: 90%;
+    color: #b8b8b8;
+    text-align: center;
+}
+.upload
+{
+    background-color: #1a1e1f;
+    font-family: VinnytsiaCity;
+    font-size: 100%;
+    width: 192px;
+    height: 50px;
+    color: white;
+    border-style:solid;
+    border-radius: 12px;
+    border-color: white;
+    position: relative;
+    top: 35px;
+    margin: auto;
+    cursor:pointer;
+}
+.or
+{
+    font-family: VinnytsiaCity;
+    color: whitesmoke;
+    position: relative;
+    top: 8%;
+}
+.dropRect
+{
+    font-family: VinnytsiaCity;
+    font-size: 150%;
+    text-align: center;
+    justify-content:center;
+    padding: 5% 0;
+    width:500px;
+    height:40px;
+    color: rgb(141, 141, 141);
+    border: 8px dashed rgb(141, 141, 141);
+    border-radius: 16px;
+    position: relative;
+    top: 10%;
+    margin: auto;
+}
